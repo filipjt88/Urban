@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Scope+One&display=swap");
+/**************
+basic styles
+**************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #a6a6a6;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Scope One", serif;
+  color: #000000;
+}
+
+.py {
+    padding: 80px;
+}
+
+
+
+/***** HEADER ******/
+
+header {
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header .btn-primary:hover {
+    transition: .5s ease;
+    background: #fff;
+    color: #007bff;
+    border: none;
+}
+
+header .row {
+  transform: translateY(200px);
+}
+
+header h1,p {
+    color: #fff;
+    font-weight: bold;
+}
+
+header p {
+    line-height: 2;
+}
+
+/***** END OF HEADER ******/
+
+
+/***** CONTENT ******/
+
+.content .col-md-8 {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.content .btn-primary:hover {
+    transition: .5s ease;
+    background: #fff;
+    color: #007bff;
+    border: none;
+}
+
+.content img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+.content p {
+    color: #989797;
+}
+
+
+/***** END OF CONTENT ******/
+
+
+/***** END OF CONTENT ******/
+
+.sidebar {
+    background: #007bff;
+}
+
+.sidebar .col-md-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.sidebar img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #fff;
+    padding: 5px;
+}
+
+.sidebar p,h3 {
+    color: #fff;
+}
+
+.sidebar h3 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.sidebar .btn-primary {
+    background: #fff;
+    color: #007bff;
+}
+
+/***** END OF CONTENT ******/
+
+
+/***** PEOPLES ******/
+
+.peoples {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.peoples .btn-primary:hover {
+    transition: .5s ease;
+    background: #fff;
+    color: #007bff;
+    border: none;
+}
+
+.peoples img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+
+.peoples p {
+    color: #989797;
+}
+
+/***** END OF PEOPLES ******/
+
+
+/***** FOOTER ******/
+
+footer {
+    padding: 30px;
+}
+
+footer h5 {
+    color: #989797;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 20px;
+    font-size: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+footer .fa-facebook-f, .fa-instagram, .fa-twitter, .fa-google-plus-square {
+    color: #989797;
+}
+
+/***** END OF FOOTER ******/
+
+
+/***** RESPONSIVE DESIGN ******/
+
+@media(max-width:768px) {
+    .peoples img {
+        margin-top: 50px;    
+    }
+    
+    footer ul li {
+        font-size: 1rem;
+    }
+    
+    .py {
+        padding: 40px;
+    }
+    
+    header .col-md-8{
+    margin-left: 0;
+}
+}
+
+/***** END OF RESPONSIVE DESIGN ******/
+
+
+
+

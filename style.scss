@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Scope+One&display=swap');
+$headings: 'Scope One', serif;
+$bodyFont: 'Roboto', sans-serif;
+$primary: #a6a6a6;
+$tertiary: #000000;
+$white: #fff;
+$fontSize: 16px;
+$transition: .3s ease;
+/**************
+basic styles
+**************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: $bodyFont;
+    font-size: $fontSize;
+    color: $primary;
+    font-weight: 300;
+    line-height: 1.8;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headings;
+    color: $tertiary;
+}
